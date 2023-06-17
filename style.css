@@ -1,0 +1,29 @@
+body{
+    background-color: #131316;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.topques{
+    display:grid;
+    place-items: center;
+    align-content: center;
+    min-height: 10vh;
+    font-size: 5vh;
+}
+
+.choices{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-x: visible;
+}
+
+.buttons{
+    font-size: 4vh;
+    height: 20vh;
+    width: 40vh;
+    border-radius: 20px;
+}
